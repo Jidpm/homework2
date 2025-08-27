@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+     font-family: "Roboto", sans-serif;
+     background-image: url(./pic/bg.webp);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+ body{
+     text-align: center;
+
+}
+.home {
+     color: white;
+     margin-inline: 75%;
+}
+.p1{
+     padding-top: 100px;
+     color: white;
+     font-size: 40px;
+}
+.p2{
+     color: white;
+}
+.loading {
+      color: white;
+}
+.p3{
+     text-align: left;
+     width: 70%;
+     display: inline;
+     color: white;
+     
+}
+.p4{
+     display: inline;
+     color: white;
+     padding-left: 50%;
+}
+.btn{
+     background-color: skyblue;
+     width: 150px;
+     height: 35px;
+}
+.fa-facebook{
+     text-align: center;
+     width: 40px;
+     height: 35px;
+     font-size: 30px;
+     color: white;
+     border: 1px solid;
+     border-radius: 50%;
+     overflow: hidden;
+}
+.fa-linkedin-in {
+     color: white;
+} 
+.fa-twitter {
+     color: white;
+}
+.fa-envelope{
+     color: white;
+}
