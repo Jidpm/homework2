@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
 html{
      font-family: "Roboto", sans-serif;
      background-image: url(./pic/bg.webp);
-     background-size: cover;
+     background-size: 100%;
+     width: 100%;
      background-repeat: no-repeat;
 }
  body{
@@ -11,53 +16,109 @@ html{
 
 }
 .home {
+     padding-top: 10px;
      color: white;
-     margin-inline: 75%;
+     margin-inline: 80%;
 }
 .p1{
-     padding-top: 100px;
+     padding-top: 150px;
      color: white;
      font-size: 40px;
 }
 .p2{
+     letter-spacing: 1px;
+     font-size: 20px;
+     padding-top: 30px;
      color: white;
 }
 .loading {
-      color: white;
+     position: relative;
+     left: 20%;
+     top: 50%;
+     width: 60%; 
+     background-color: white;
+     color: white;
+     box-shadow: 4px 4px 8px black;
+}
+.loadingblue{
+     color: skyblue;
+     position: absolute;
+     left: 20%;
+     top: 48.95%;
+     width: 45%; 
+     background-color: skyblue;
+
 }
 .p3{
-     text-align: left;
-     width: 70%;
+     position:relative;
+     left: -2%;
+     top: 70%;
+     width: 100%;
      display: inline;
-     color: white;
-     
+     color: rgb(255, 255, 255);
 }
 .p4{
+     text-align: center;
      display: inline;
-     color: white;
+     position:relative;
+     left: 3%;
+     top: 70%;
+     width: 100%;
+     color: rgb(255, 251, 251);
      padding-left: 50%;
+     
 }
 .btn{
+     margin: 50px auto;
      background-color: skyblue;
      width: 150px;
      height: 35px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: none;
 }
-.fa-facebook{
-     text-align: center;
-     width: 40px;
-     height: 35px;
+.icon{
+     margin: 20px auto;
      font-size: 30px;
      color: white;
-     border: 1px solid;
-     border-radius: 50%;
-     overflow: hidden;
+     display: inline-flex;
+     justify-content: center;
+     gap: 20px;
+     
+}
+.fa-facebook{
+   border: 1px solid white;
+   border-radius: 50%;
+
+     
 }
 .fa-linkedin-in {
-     color: white;
+   border: 1px solid white;
+   border-radius: 50%;
 } 
 .fa-twitter {
-     color: white;
+   border: 1px solid white;
+   border-radius: 50%;
 }
 .fa-envelope{
-     color: white;
+   border: 1px solid white;
+   border-radius: 50%; 
 }
+ .hr{
+ color: red;
+}
+ 
+
+.p5{
+     color: rgb(88, 87, 87);
+     
+     margin-top: 120px;
+ }
+  hr{
+     position: relative;
+     top: 110px;
+     left: 130px;
+     width: 80%;
+     
+  }
